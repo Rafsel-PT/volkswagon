@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Volkswagen Features</title>
+  <style>
+    img{
+        width: 350px;
+        height: 200px;
+    }
+    @media (max-width: 768px) { /* Tablet */
+      .hero {
+        padding: 3rem 0;
+      }
+      .hero h1 {
+        font-size: 2rem;
+      }
+      .hero p {
+        font-size: 1rem;
+      }
+    }
+
+    @media (max-width: 576px) { /* Mobile */
+      .hero {
+        padding: 2rem 0;
+      }
+      .hero h1 {
+        font-size: 1.5rem;
+      }
+      .hero p {
+        font-size: 0.9rem;
+      }
+      .about h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <header class="bg-dark text-white text-center py-4">
+    <h1>Volkswagen Features</h1>
+    <p>Explore the advanced technology and iconic design of Volkswagen cars.</p>
+  </header>
+
+  <main class="container my-5">
+    <!-- Feature Section -->
+    <section >
+      <h2 class="text-center mb-4">Why Choose Volkswagen?</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="data:image/jpeg;base64,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" class="card-img-top" alt="Feature 1">
+            <div class="card-body">
+              <h5 class="card-title">Advanced Safety</h5>
+              <p class="card-text">Equipped with cutting-edge safety features to keep you and your loved ones safe.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://www.carandbike.com/_next/image?url=https%3A%2F%2Fimages.carandbike.com%2Fcar-images%2Fbig%2Fvolkswagen%2Fpolo-gti%2Fvolkswagen-polo-gti.jpg%3Fv%3D17&w=640&q=75" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Timeless Design</h5>
+              <p class="card-text">A blend of classic and modern design, creating cars that stand out on the road.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://i.pinimg.com/736x/36/99/94/369994230921305b89dd3d23760c1491.jpg" class="card-img-top" alt="Feature 3">
+            <div class="card-body">
+              <h5 class="card-title">Efficient Performance</h5>
+              <p class="card-text">Enjoy fuel-efficient engines without compromising on performance.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Car Gallery -->
+    <section class="my-5">
+      <h2 class="text-center mb-4">Our Cars</h2>
+      <div class="row g-3">
+        <div class="col-md-4">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXkemFDd_ZVJJAo2IhPtCt8if0iNMsrTIN8A&s" class="img-fluid rounded" alt="Volkswagen Car 1">
+        </div>
+        <div class="col-md-4">
+          <img src="https://vehicle-images.dealerinspire.com/stock-images/chrome/9fb45382f4813f14609c49753556b5d2.png" class="img-fluid rounded" alt="Volkswagen Car 2">
+        </div>
+        <div class="col-md-4">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTtmslgeozB9q73UiqusqcrGX6qUz_GOjvtA&s" class="img-fluid rounded" alt="Volkswagen Car 3">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 Volkswagen. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
